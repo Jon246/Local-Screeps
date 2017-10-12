@@ -1,0 +1,11 @@
+{
+  "name": "screeps",
+  "version": "1.0.0",
+  "description": "Personal screeps code",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "J.Hawtin",
+  "license": "ISC"
+}
