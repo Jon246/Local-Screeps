@@ -1,4 +1,4 @@
-var config = require("Config");
+var config = require("./Config");
 
 module.exports = function(grunt){
 
@@ -11,10 +11,10 @@ module.exports = function(grunt){
 				password: config.Config.Password,
 				branch: "default",
 				ptr: false
+			},
+			dist: {
+				src: ["./src/*.js"]
 			}
-		},
-		dist: {
-			src: ["src/*.js"]
-		}
+		}		
 	});
 };
